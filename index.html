@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="../assets/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="dist/effect-shutters.min.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Shutters Slider</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- Shutters Slider -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- shutters image must have "swiper-shutters-image" class, one image per slide -->
+          <img class="swiper-shutters-image" src="assets/images/travel-1.jpeg" />
+          <!-- demo slide title -->
+          <div class="demo-slide-title" data-swiper-parallax="50%">Plane</div>
+        </div>
+        <div class="swiper-slide">
+          <img class="swiper-shutters-image" src="assets/images/travel-2.jpg" />
+          <div class="demo-slide-title" data-swiper-parallax="50%">City</div>
+        </div>
+        <div class="swiper-slide">
+          <img class="swiper-shutters-image" src="assets/images/travel-3.jpg" />
+          <div class="demo-slide-title" data-swiper-parallax="50%">Beaches</div>
+        </div>
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="dist/effect-shutters.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
